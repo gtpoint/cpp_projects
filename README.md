@@ -4,3 +4,4 @@ I uploaded my projects which I have done during my studies. Most projects relate
 
 + [calculator](./calculator)
 + [Bank](./Bank)
++ [Polynome](./Polynome)
