@@ -1,7 +1,7 @@
 # Bank Project
 
 + A bank manages a set of accounts of different types: current accounts, savings accounts, etc... The bank must allow its clients to open accounts.
-The behaviors and characteristics related to an account are at a highly abstract level, with many similarities: each account has an owner, a balance, a number, and an interest rate. Clients must be able to deposit, withdraw money `if there is enough balance`, and check the balance of their accounts.
++ The behaviors and characteristics related to an account are at a highly abstract level, with many similarities: each account has an owner, a balance, a number, and an interest rate. Clients must be able to deposit, withdraw money `if there is enough balance`, and check the balance of their accounts.
 + A client should be able to transfer money from their current account to another of their accounts `current or savings`.
 + A client should also be able to transfer money to the account of another client by paying a transaction fee of 30 DH.
 + Savings accounts earn money: they have an interest rate `tx`, and each deposit of an amount M into a savings account leads to an increase in the balance of that account by `M + M * tx`.
